@@ -3,8 +3,8 @@ import jieba
 
 jieba.enable_parallel(8)
 
-input = '/home/hs/Data/wikipedia/wiki.zh.text.simplified'
-output = '/home/hs/Data/wikipedia/wiki.zh.text.simplified_seg'
+input = '/home/hs/Data/wikipedia/wiki.zh.text.traditional'
+output = '/home/hs/Data/wikipedia/wiki.zh.text.traditional_seg'
 
 content = open(input,"rb").read()
 t1 = time.time()

@@ -14,6 +14,7 @@ This project uses Word2vec and GloVe tools to train word vectors for Chinese usi
     opencc -i wiki.zh.text -o wiki.zh.text.simplified -c zht2zhs.ini
     ```
     Then, simplified Chinese should be translated to traditional Chinese:
+    
     ```
     opencc -i wiki.zh.text -o wiki.zh.text.traditional -c zhs2zht.ini
     ```
@@ -24,8 +25,23 @@ This project uses Word2vec and GloVe tools to train word vectors for Chinese usi
     
     * using Jieba packages to separate sentence. Run tokenization.py，考虑到常用分词工具来分词，使用词汇可提供更多信息
     
-5. 
+5. Train word2vec using train_word2vec_model.py.
 
+   Hyper-parameters:
+   
+   * word vector dimension: 300
+   * window: 5
+   * min_count: 5
+   * epochs: 3
+   
+   Word vectors statistical information: 
+   
+   |word vectors|corpus|words|sentences|dimensions|
+   |------|------|------|------|------|
+   |word2vec|traditional Chinese|860,835|253,646|300|
+   |word2vec|simplified Chinese||||
+   |GloVe|traditional Chinese||||
+   |GloVe|simplified Chinese||||
 
 
 ### Contact
