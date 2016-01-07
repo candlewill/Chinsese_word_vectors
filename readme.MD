@@ -22,7 +22,7 @@ This project uses Word2vec and GloVe tools to train word vectors for Chinese usi
 
     * one character as a words all the time, 因为汉语中单个字往往也能表示许多信息
     
-    * using Jieba packages to separate sentence，考虑到常用分词工具来分词，使用词汇可提供更多信息
+    * using Jieba packages to separate sentence. Run tokenization.py，考虑到常用分词工具来分词，使用词汇可提供更多信息
     
 5. 
 
