@@ -36,8 +36,8 @@ def group_words(s):
 
 if __name__ == "__main__":
 
-    inp = '/home/hs/Data/wikipedia/wiki.zh.text.traditional'
-    outp = '/home/hs/Data/wikipedia/wiki.zh.text.traditional.character'
+    inp = '/home/hs/Data/wikipedia/wiki.zh.text.simplified'
+    outp = '/home/hs/Data/wikipedia/wiki.zh.text.simplified.character'
 
     out = []
     with open(inp, 'r', newline='\n', encoding='utf-8') as f:
