@@ -10,9 +10,9 @@ This project uses Word2vec and GloVe tools to train word vectors for Chinese usi
 
 ### Contact
 
-* Yunchao He
+* [Yunchao He] (https://plus.google.com/+YunchaoHe)
 * yunchaohe@gmail.com
-* YZU at Taiwan
+* [YZU](http://www.yzu.edu.tw/) at Taiwan
 * [Weibo](http://weibo.com/heyunchao)
 * [Facebook](https://www.facebook.com/yunchao.h)
 * [Twitter](https://twitter.com/candlewill)
