@@ -21,7 +21,12 @@ This project uses Word2vec and GloVe tools to train word vectors for Chinese usi
     
 4. Tokenization, split the sentence into words. Two tokennization mechanism are used: 
 
-    * one character as a words all the time, 因为汉语中单个字往往也能表示许多信息
+    * one character as a words all the time, 因为汉语中单个字往往也能表示许多信息. Namely, we segment the Chinese sentence into character level as follows:
+     
+     ```
+     欧几里得 西元前三世纪的希腊数学家 现在被认为是几何之父
+     欧 几 里 得 西 元 前 三 世 纪 的 希 腊 数 学 家 现 在 被 认 为 是 几 何 之 父
+     ```
     
     * using Jieba packages to separate sentence. Run tokenization.py，考虑到常用分词工具来分词，使用词汇可提供更多信息
     
@@ -33,15 +38,17 @@ This project uses Word2vec and GloVe tools to train word vectors for Chinese usi
    * window: 5
    * min_count: 5
    * epochs: 3
+   * Training algorithm: skip-gram (sg = 1)
+   * Model training: hierarchical sampling (hs = 1)
    
    Word vectors statistical information: 
    
-   |word vectors|corpus|words|sentences|dimensions|
-   |------|------|------|------|------|
-   |word2vec|traditional Chinese|860,835|253,646|300|
-   |word2vec|simplified Chinese||||
-   |GloVe|traditional Chinese||||
-   |GloVe|simplified Chinese||||
+   |word vectors|corpus|words|sentences|dimensions|Time|
+   |------|------|------|------|------|------|
+   |word2vec|traditional Chinese|860,835|253,646|300|3086.8s|
+   |word2vec|simplified Chinese|686,601|253,646|300|3186.9s|
+   |GloVe|traditional Chinese|||300||
+   |GloVe|simplified Chinese|||300||
 
 
 ### Contact
