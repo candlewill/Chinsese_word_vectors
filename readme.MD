@@ -45,10 +45,10 @@ This project uses Word2vec and GloVe tools to train word vectors for Chinese usi
    
    |word vectors|corpus|words|sentences|dimensions|Time|
    |------|------|------|------|------|------|
-   |word2vec|traditional Chinese|860,835|253,646|300|3086.8s|
-   |word2vec|simplified Chinese|686,601|253,646|300|3186.9s|
-   |GloVe|traditional Chinese|||300||
-   |GloVe|simplified Chinese|||300||
+   |word2vec|traditional Chinese|860,835|253,646|300|3,086.8s|
+   |word2vec|simplified Chinese|686,601|253,646|300|3,186.9s|
+   |GloVe|traditional Chinese|860,835|253,646|300|2160.0s|
+   |GloVe|simplified Chinese|686,601|253,646|300|2,280.0s|
 
 
 ### Contact
