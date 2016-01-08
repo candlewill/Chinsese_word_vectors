@@ -30,7 +30,7 @@ This project uses Word2vec and GloVe tools to train word vectors for Chinese usi
     
     * using Jieba packages to separate sentence. Run tokenization.py，考虑到常用分词工具来分词，使用词汇可提供更多信息
     
-5. Train word2vec using train_word2vec_model.py.
+5. Train word vectors using train_word2vec_model.py and GloVe model.
 
    Hyper-parameters:
    
@@ -47,8 +47,41 @@ This project uses Word2vec and GloVe tools to train word vectors for Chinese usi
    |------|------|------|------|------|------|
    |word2vec|traditional Chinese|860,835|253,646|300|3,086.8s|
    |word2vec|simplified Chinese|686,601|253,646|300|3,186.9s|
-   |GloVe|traditional Chinese|860,835|253,646|300|2160.0s|
+   |GloVe|traditional Chinese|860,835|253,646|300|2,160.0s|
    |GloVe|simplified Chinese|686,601|253,646|300|2,280.0s|
+
+   Character vectors ststistical information: (Hyper-parameter is the same as training word-level vectors)
+   
+   |Character vectors|corpus|character|dimensions|Time|
+   |------|------|------|------|------|
+   |GloVe|traditional|157,660|300|420s|
+   |GloVe|simplified|157,379|300|410s|
+   |word2vec|traditional||300||
+   |word2vec|simplified||300||
+   
+### Download
+
+1. word level and character level vectors trained by word2vec:
+
+    |Level|Language|syn0|syn1|Text|
+    |-----|-----|-----|-----|
+    |word|simplified|[Download]()|[Download]()|[Download]()|
+    |word|traditional|[Download]()|[Download]()|[Download]()|
+    |character|simplified|[Download]()|[Download]()|[Download]()|
+    |character|traditional|[Download]()|[Download]()|[Download]()|
+    
+    Note: syn0 and syn1 files are produced by saving model using model.save(), which allows to continue training the model when loaded. The Text file is produced by saving model using model.save_word2vec_format(), which allows to view the vectors by a sublime-like software.
+    
+2. word level and character level vectors trained by GloVe:
+
+    |Level|Language|vocab.txt|vectors.txt|cooccurrence.bin|
+    |-----|-----|-----|-----|
+    |word|simplified|[Download]()|[Download]()|[Download]()|
+    |word|traditional|[Download]()|[Download]()|[Download]()|
+    |character|simplified|[Download]()|[Download]()|[Download]()|
+    |character|traditional|[Download]()|[Download]()|[Download]()|
+    
+    Note: vectors.txt is the vectors produced by GloVe model and vocab.txt is the vocabulary-index mapping file.
 
 
 ### Contact

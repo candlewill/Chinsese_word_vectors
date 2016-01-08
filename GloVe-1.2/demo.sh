@@ -8,7 +8,7 @@
 # 4.glove：glove算法的训练模型，会运用到之前生成的相关文件（1&3），最终会输出vectors.txt和vectors.bin（前者直接可以打开，下文主要针对它做研究，后者还是二进制文件）
 make
 
-CORPUS=/home/hs/Data/wikipedia/wiki.zh.text.traditional_seg
+CORPUS=/home/hs/Data/wikipedia/wiki.zh.text.simplified.character
 VOCAB_FILE=vocab.txt
 COOCCURRENCE_FILE=cooccurrence.bin
 COOCCURRENCE_SHUF_FILE=cooccurrence.shuf.bin
