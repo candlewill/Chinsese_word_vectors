@@ -64,7 +64,7 @@ This project uses Word2vec and GloVe tools to train word vectors for Chinese usi
 1. word level and character level vectors trained by word2vec:
 
     |Level|Language|syn0|syn1|Text|
-    |-----|-----|-----|-----|
+    |-----|-----|-----|-----|-----|
     |word|simplified|[Download]()|[Download]()|[Download]()|
     |word|traditional|[Download]()|[Download]()|[Download]()|
     |character|simplified|[Download]()|[Download]()|[Download]()|
@@ -75,7 +75,7 @@ This project uses Word2vec and GloVe tools to train word vectors for Chinese usi
 2. word level and character level vectors trained by GloVe:
 
     |Level|Language|vocab.txt|vectors.txt|cooccurrence.bin|
-    |-----|-----|-----|-----|
+    |-----|-----|-----|-----|-----|
     |word|simplified|[Download]()|[Download]()|[Download]()|
     |word|traditional|[Download]()|[Download]()|[Download]()|
     |character|simplified|[Download]()|[Download]()|[Download]()|
