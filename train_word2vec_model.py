@@ -18,9 +18,9 @@ if __name__ == '__main__':
     logger.info("running %s" % ' '.join(sys.argv))
 
 
-    inp = '/home/hs/Data/wikipedia/wiki.zh.text.simplified.character'
-    outp1 = '/home/hs/Data/wikipedia/word2vec_character/wiki.zh.text.simplified.character.vec'
-    outp2 = '/home/hs/Data/wikipedia/word2vec_character/wiki.zh.text.simplified.character.txt'
+    inp = '/home/hs/Data/wikipedia/wiki.zh.text.traditional.character'
+    outp1 = '/home/hs/Data/wikipedia/word2vec_character/wiki.zh.text.traditional.character.vec'
+    outp2 = '/home/hs/Data/wikipedia/word2vec_character/wiki.zh.text.traditional.character.txt'
 
     model = Word2Vec(LineSentence(inp), size=300, window=5, min_count=5,
             workers=multiprocessing.cpu_count(), iter=3)

@@ -56,8 +56,8 @@ This project uses Word2vec and GloVe tools to train word vectors for Chinese usi
    |------|------|------|------|------|
    |GloVe|traditional|157,660|300|420s|
    |GloVe|simplified|157,379|300|410s|
-   |word2vec|traditional||300||
-   |word2vec|simplified||300||
+   |word2vec|traditional|157,660|300||
+   |word2vec|simplified|157,379|300|4,415.6s|
    
 ### Download
 
@@ -82,6 +82,12 @@ This project uses Word2vec and GloVe tools to train word vectors for Chinese usi
     |character|traditional|[Download]()|[Download]()|[Download]()|
     
     Note: vectors.txt is the vectors produced by GloVe model and vocab.txt is the vocabulary-index mapping file.
+    
+3. Original Wikipeida Chinese Corpus: [Download]()
+
+4. The Simplified Chinese version Wikipedia corpus before segmentation: [Download](), After Segmentation: [Download]()
+
+5. The Traditional Chinese version Wikipedia corpus before segmentation: [Download](), After segmentation: [Download]()
 
 
 ### Contact
