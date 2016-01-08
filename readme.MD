@@ -56,7 +56,7 @@ This project uses Word2vec and GloVe tools to train word vectors for Chinese usi
    |------|------|------|------|------|
    |GloVe|traditional|157,660|300|420s|
    |GloVe|simplified|157,379|300|410s|
-   |word2vec|traditional|157,660|300||
+   |word2vec|traditional|157,660|300|3,991.1s|
    |word2vec|simplified|157,379|300|4,415.6s|
    
 ### Download
