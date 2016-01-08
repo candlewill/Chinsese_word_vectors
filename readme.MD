@@ -85,9 +85,9 @@ This project uses Word2vec and GloVe tools to train word vectors for Chinese usi
     
 3. Original Wikipeida Chinese Corpus: [Download]()
 
-4. The Simplified Chinese version Wikipedia corpus before segmentation: [Download](), After Segmentation: [Download]()
+4. The Simplified Chinese version Wikipedia corpus before segmentation: [Download](), After Segmentation: [Download](), After character-level segmentation: [Download]().
 
-5. The Traditional Chinese version Wikipedia corpus before segmentation: [Download](), After segmentation: [Download]()
+5. The Traditional Chinese version Wikipedia corpus before segmentation: [Download](), After segmentation: [Download](), After character-level segmentation: [Download]().
 
 
 ### Contact
